@@ -12,8 +12,8 @@ header{
 }
 
 footer{
-	height: 240px;
 	background-color: #6C648B;
+	margin-top: 20px;
 }
 
 h1 a{
@@ -48,7 +48,7 @@ display: block;
 margin:auto;
 width: 100%;
 margin-bottom: 20px;
-margin-top: 10px;
+margin-top: 20px;
 position: relative;
 }
 
@@ -74,7 +74,6 @@ nav.navbar.navbar-default{
 #home-tiles{
 	margin:0px;
 	padding: 0px;
-	margin-bottom: 10px;
 	width: 100%;
 }
 
@@ -90,4 +89,17 @@ nav#header-nav.navbar.navbar-default{
 	overflow: hidden;
 	padding: 0;
 }
+p{
+	color:#FBA100;
+	margin-top: 20px;
+	text-align: justify;
+	font-size: 0.5em;
+}
+}
+
+p{
+	color:#FBA100;
+	margin-top: 20px;
+	text-align: justify;
+	font-size: 0.9em;
 }
