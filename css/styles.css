@@ -96,11 +96,6 @@ p{
 	text-align: justify;
 	font-size: 0.5em;
 }
-
-
-
-
-
 }
 
 p{
@@ -142,9 +137,14 @@ nav#header-nav.navbar.navbar-default{
 
 #vidovdanija{
 	font-family: 'Slabo 27px', serif;
-	font-size: 1.8em;
+	font-size: 1.4em;
 }
 
+a:hover#vidovdanija{
+	background-color: none;
+	color:white;
+	text-shadow:none;
+	}
 
 
 a{
