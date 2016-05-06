@@ -169,3 +169,13 @@ text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
     color: white;
 }
 
+.navbar-default .navbar-nav>.active>a{
+    color: black;
+    background-color: transparent;
+    text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: black;
+    background-color: transparent;
+}
