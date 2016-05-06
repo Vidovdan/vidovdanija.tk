@@ -124,6 +124,7 @@ nav#header-nav.navbar.navbar-default{
 
 .navbar-brand.visible-xs#home{
 	margin-bottom: 10px;
+	padding-top: 12px;
 }
 
 .navbar-nav>li>a:hover{
@@ -178,4 +179,15 @@ text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
 .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	color: black;
     background-color: transparent;
+}
+
+#copyright{
+	color: white;
+	font-size: 0.8em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+span.glyphicon.glyphicon-home{
+	font-size: 1.5em;
 }
