@@ -191,3 +191,15 @@ text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
 span.glyphicon.glyphicon-home{
 	font-size: 1.5em;
 }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #6BBAA7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-header button.navbar-toogle{
+	clear: both;
+}
