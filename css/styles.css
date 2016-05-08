@@ -3,22 +3,24 @@ body{
 	background-color: #d7cec7;
 	font-family: 'Slabo 27px', serif;
 	margin: 0px;
+
+	background: #F0C27B; /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #565656 , #d7cec7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #565656 , #d7cec7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header{
 	font-family: 'Slabo 27px', serif;
 	color:white;
-	background-color: #96858f;
 
 
-background: #F0C27B; /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #c09f80 , #d7cec7); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #c09f80 , #d7cec7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
         
 }
 
 footer{
-	background-color: #565656;
+	background-color: #c09f80;
 	margin-top: 20px;
 }
 
