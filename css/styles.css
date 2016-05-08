@@ -1,10 +1,8 @@
 body{
 	font-size: 16px;
-	background-color: #f4decb;
+	background-color: #d7cec7;
 	font-family: 'Slabo 27px', serif;
 	margin: 0px;
-
-
 }
 
 header{
@@ -12,15 +10,16 @@ header{
 	color:white;
 
 background: #F0C27B; /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #49274a , #f4decb); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #49274a , #f4decb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #373737 , #d7cec7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #373737 , #d7cec7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 
         
 }
 
 footer{
-	background-color: #94618e;
+	background-color: #c09f80;
 	margin-top: 20px;
 }
 
@@ -49,7 +48,7 @@ h1, h3{
 }
 
 .navbar{
-background-color: #49274a;
+background-color: #76323f;
 }
 
 #bigImage{
@@ -75,7 +74,7 @@ nav.navbar.navbar-default{
 #collapsable-nav{
   width: 100%;
   text-align: center;
-  background-color: #49274a;
+  background-color: #76323f;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -136,7 +135,7 @@ nav#header-nav.navbar.navbar-default{
 }
 
 .navbar-nav>li>a:hover{
-	background-color: #49274a;
+	background-color: #76323f;
 }
 
 #home{
@@ -201,7 +200,7 @@ span.glyphicon.glyphicon-home{
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #49274a;
+    background-color: #76323f;
 }
 
 
