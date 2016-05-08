@@ -12,13 +12,13 @@ header{
 
 
 background: #F0C27B; /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #565656 , #d7cec7); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #565656 , #d7cec7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #c09f80 , #d7cec7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #c09f80 , #d7cec7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
 
 footer{
-	background-color: #c09f80;
+	background-color: #565656;
 	margin-top: 20px;
 }
 
