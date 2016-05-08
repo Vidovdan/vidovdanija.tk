@@ -1,6 +1,6 @@
 body{
 	font-size: 16px;
-	background-color: #B6A19E;
+	background-color: #d5d5d5;
 	font-family: 'Slabo 27px', serif;
 	margin: 0px;
 }
@@ -8,11 +8,17 @@ body{
 header{
 	font-family: 'Slabo 27px', serif;
 	color:white;
-	background-color: #6C648B;
+	background-color: #96858f;
+
+
+background: #F0C27B; /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #6d7993 , #d5d5d5); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #6d7993 , #d5d5d5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
 
 footer{
-	background-color: #6C648B;
+	background-color: #6d7993;
 	margin-top: 20px;
 }
 
@@ -41,7 +47,7 @@ h1, h3{
 }
 
 .navbar{
-	background-color: #6BBAA7;
+	background-color: #96858f;
 }
 
 #bigImage{
@@ -67,7 +73,7 @@ nav.navbar.navbar-default{
 #collapsable-nav{
   width: 100%;
   text-align: center;
-  background-color: #6BBAA7;
+  background-color: #96858f;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -91,7 +97,7 @@ nav#header-nav.navbar.navbar-default{
 	padding: 0;
 }
 p{
-	color:#FBA100;
+	color:white;
 	margin-top: 20px;
 	text-align: justify;
 	font-size: 0.5em;
@@ -99,7 +105,7 @@ p{
 }
 
 p{
-	color:#FBA100;
+	color:white;
 	margin-top: 20px;
 	text-align: justify;
 	font-size: 0.9em;
@@ -128,7 +134,7 @@ nav#header-nav.navbar.navbar-default{
 }
 
 .navbar-nav>li>a:hover{
-	background-color: #6BBAA7;
+	background-color: #96858f;
 }
 
 #home{
@@ -182,8 +188,8 @@ text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
 }
 
 #copyright{
-	color: white;
-	font-size: 0.8em;
+	color: black;
+	font-size: 0.7em;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
@@ -193,7 +199,7 @@ span.glyphicon.glyphicon-home{
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #6BBAA7;
+    background-color: #96858f;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
