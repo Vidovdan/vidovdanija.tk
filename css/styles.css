@@ -30,7 +30,6 @@ h1 a{
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
-
 }
 
 h1, a:hover{
@@ -61,7 +60,7 @@ margin-top: 20px;
 position: relative;
 }
 
-#smallImage{
+#smallImage1, #smallImage2{
 display: block;
 margin:auto;
 width: 100%;
@@ -179,7 +178,8 @@ text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
 }
 
 .navbar-default .navbar-nav>.active>a{
-    color: black;
+	font-weight: bold;
+    color: white;
     background-color: transparent;
     text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
 }
