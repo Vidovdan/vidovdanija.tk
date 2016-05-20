@@ -104,7 +104,6 @@ nav.navbar.navbar-default{
   text-align: center;
   background-color: #76323f;
   margin: 0;
-  margin-bottom: 10px;
 }
 
 
@@ -135,6 +134,7 @@ p{
 	font-size: 0.9em;
 	padding-bottom: 10px;
 	font-style: italic;
+	text-indent: 10pt;
 }
 
 hr{
@@ -155,11 +155,11 @@ ul#nav-list.nav.navbar-nav.navbar-right.visible-xs{
 
 
 nav#header-nav.navbar.navbar-default{
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 }
 
 .navbar-brand.visible-xs#home{
-	margin-bottom: 10px;
+	padding-left: 8px;
 	padding-top: 12px;
 }
 
@@ -259,5 +259,22 @@ footer a{
 
 footer div.row{
 	margin-bottom: 30px;
+}
+
+#headline span {
+	position: absolute;
+	bottom: 5pt;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em;
+	background-color:transparent;
+	color:white;
+	text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
+}
+
+
+button.navbar-toggle {
+	margin-right:8px;
 }
 
