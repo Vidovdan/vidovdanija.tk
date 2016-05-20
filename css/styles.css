@@ -25,8 +25,7 @@ footer{
 }
 
 h1 a{
-	font-size: 1.8em;
-	font-family: 'Slabo 27px', serif;
+	font-size: 5.8em;
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -38,6 +37,7 @@ h1, a:hover{
 }
 
 h1, h3{
+	font-size: 1.8em;
 	text-align: center;
 }
 
@@ -124,7 +124,6 @@ nav#header-nav.navbar.navbar-default{
 	
 p{
 	color:white;
-	margin-top: 20px;
 	text-align: justify;
 	font-size: 0.5em;
 }
@@ -132,9 +131,14 @@ p{
 
 p{
 	color:white;
-	margin-top: 20px;
 	text-align: justify;
 	font-size: 0.9em;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
+hr{
+	width: 85%;
 }
 
 ul#nav-list.nav.navbar-nav.navbar-right{
@@ -239,4 +243,21 @@ span.glyphicon.glyphicon-home{
 	clear: both;
 }
 
+footer{
+	padding-top: 20px;
+}
+
+#test{
+	color: black;
+	float: right;
+	font-style: initial;
+}
+
+footer a{
+	color: black;
+}
+
+footer div.row{
+	margin-bottom: 30px;
+}
 
